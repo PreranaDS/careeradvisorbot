@@ -13,12 +13,206 @@
     </template>
 </category>
 <category>
-    <pattern> FULL STACK WEB DEVELOPER</pattern>
-    <template>Oooh, that's nice! Now tell me your strengths. Are you good in coding?
-        <button><text>Yes</text><postback></postback>YES</button>
-        <button><text>No</text><postback>NO</postback></button>
+	<pattern>HELLO #</pattern>
+	<template>Hi there! I am your virtual career advisor. Tell your interests
+	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback> FULL STACK WEB DEVELOPER</postback></button>
+        <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>DATA SCIENTIST</postback></button>
+        <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>INFORMATION SECURITY ANALYST</postback></button>
+        <button><text>C,C#.NET,Game engines,Gaming</text><postback>GAME DEVELOPER</postback></button>
+        <button><text>SDLC,Java,Functional, Regression, Integration, Smoke and other testings,Junit,Bug tracking</text><postback>QA TESTER</postback></button>
     </template>
 </category>
+<category>
+	<pattern># HELP #</pattern>
+	<template>Hi there! I am your virtual career advisor. Tell your interests
+	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback> FULL STACK WEB DEVELOPER</postback></button>
+        <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>DATA SCIENTIST</postback></button>
+        <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>INFORMATION SECURITY ANALYST</postback></button>
+        <button><text>C,C#.NET,Game engines,Gaming</text><postback>GAME DEVELOPER</postback></button>
+        <button><text>SDLC,Java,Functional, Regression, Integration, Smoke and other testings,Junit,Bug tracking</text><postback>QA TESTER</postback></button>
+    </template>
+</category>
+<category>
+	<pattern>HEY #</pattern>
+	<template>Hi there! I am your virtual career advisor. Tell your interests
+	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback> FULL STACK WEB DEVELOPER</postback></button>
+        <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>DATA SCIENTIST</postback></button>
+        <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>INFORMATION SECURITY ANALYST</postback></button>
+        <button><text>C,C#.NET,Game engines,Gaming</text><postback>GAME DEVELOPER</postback></button>
+        <button><text>SDLC,Java,Functional, Regression, Integration, Smoke and other testings,Junit,Bug tracking</text><postback>QA TESTER</postback></button>
+    </template>
+</category>
+<category>
+	<pattern>GREETINGS #</pattern>
+	<template>Hi there! I am your virtual career advisor. Tell your interests
+	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback> FULL STACK WEB DEVELOPER</postback></button>
+        <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>DATA SCIENTIST</postback></button>
+        <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>INFORMATION SECURITY ANALYST</postback></button>
+        <button><text>C,C#.NET,Game engines,Gaming</text><postback>GAME DEVELOPER</postback></button>
+        <button><text>SDLC,Java,Functional, Regression, Integration, Smoke and other testings,Junit,Bug tracking</text><postback>QA TESTER</postback></button>
+    </template>
+</category>
+<category>
+    <pattern> FULL STACK WEB DEVELOPER</pattern>
+    <template>That's nice! Now tell me are you good in coding?
+        <button><text>Yes</text><postback>I am good in coding</postback></button>
+        <button><text>No</text><postback>I am not good in coding</postback></button>
+    </template>
+</category>
+<category>
+    <pattern>I am good in coding</pattern>
+    <template>Great! Are you good in communication?
+        <button><text>Yes</text><postback>I am good in comm</postback></button>
+        <button><text>No</text><postback>I am not good in comm</postback></button>
+    </template>
+</category>
+<category>
+    <pattern>I am not good in coding</pattern>
+    <template>No worries! You can enhance your coding skills by working on problems or taking up courses or you could go into web or app designing!</template>
+</category>
+<category>
+    <pattern>I am good in comm</pattern>
+    <template>Full Stack Web Development is your thing and you are all set to take it up!</template>
+</category>
+<category>
+    <pattern>I am not good in comm</pattern>
+    <template>Full Stack Web Development is your thing! It would help to sharpen your communication skills. Enroll in some courses and start talking to people and you'll be there in no time! </template>
+</category>
+
+<category>
+    <pattern> FULL STACK WEB DEVELOPER</pattern>
+    <template>That's nice! Now tell me are you good in coding?
+        <button><text>Yes</text><postback>I am good in coding</postback></button>
+        <button><text>No</text><postback>I am not good in coding</postback></button>
+    </template>
+</category>
+<category>
+    <pattern>I am good in coding</pattern>
+    <template>Great! Are you good in problem solving?
+        <button><text>Yes</text><postback>I am good in ps</postback></button>
+        <button><text>No</text><postback>I am not good in ps</postback></button>
+    </template>
+</category>
+<category>
+    <pattern>I am good in ps</pattern>
+    <template>Full Stack Web Development is your thing and you are all set to take it up!</template>
+</category>
+<category>
+    <pattern>I am not good in ps</pattern>
+    <template>Full Stack Web Development is your thing! It would help to sharpen your problem solving skills. Enroll in some courses and start working on some small jobs and you'll get there in no time! </template>
+</category>
+
+<category>
+    <pattern> DATA SCIENTIST</pattern>
+    <template>That's nice! Now tell me are you good in coding?
+        <button><text>Yes</text><postback>I am good in coding ds</postback></button>
+        <button><text>No</text><postback>I am not good in coding ds</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am good in coding ds</pattern>
+    <template>Great! Are you good in problem solving?
+        <button><text>Yes</text><postback>I am good in ps ds</postback></button>
+        <button><text>No</text><postback>I am not good in ps ds</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am not good in coding ds</pattern>
+    <template>You could go into exploratory data analysis using user friendly online tools but I recommend working on your coding skills.</template>
+</category>
+
+<category>
+    <pattern>I am good in ps ds</pattern>
+    <template>Great! Are you good in communicating?
+        <button><text>Yes</text><postback>I am good comm ds</postback></button>
+        <button><text>No</text><postback>I am not good comm ds</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am not good in ps ds</pattern>
+    <template>You can go into Exploratory Data Analysis! Or you can improve your problem solving skills</template>
+</category>
+
+<category>
+    <pattern>I am not good comm ds</pattern>
+    <template>Data Science is your thing! It would help to sharpen your communication skills. Enroll in some courses and start talking to an audience and you'll get there in no time! </template>
+</category>
+
+<category>
+    <pattern>I am good comm ds</pattern>
+    <template>Data Science is your thing and you already have what it takes! </template>
+</category>
+
+<category>
+    <pattern>INFORMATION SECURITY ANALYST</pattern>
+    <template>That's nice! Now tell me are you good in problem solving?
+        <button><text>Yes</text><postback>I am good in ps isa</postback></button>
+        <button><text>No</text><postback>I am not good in ps isa</postback></button>
+    </template>
+</category>
+<category>
+    <pattern>I am good in ps isa</pattern>
+    <template>Information security is your thing!</template>
+</category>
+<category>
+    <pattern>I am not good in ps isa</pattern>
+    <template>Information security is your thing although yo might want to enhance your problem solving skills as this doesnt need as much coding or communication as the other fields, but it sure does involve an extensive problem solving ability.</template>
+</category>
+
+<category>
+    <pattern>GAME DEVELOPER</pattern>
+    <template>That's nice! Now tell me are you good in coding?
+        <button><text>Yes</text><postback>I am good in coding gaming</postback></button>
+        <button><text>No</text><postback>I am not good in coding gaming</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am good in coding gaming</pattern>
+    <template>Great! Now tell me are you good in problem solving?
+        <button><text>Yes</text><postback>I am good in ps gaming</postback></button>
+        <button><text>No</text><postback>I am not good in ps gaming</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am not good in coding gaming</pattern>
+    <template>You could go into game designing!</template>
+</category>
+
+<category>
+    <pattern>I am good in ps gaming</pattern>
+    <template>Game development is your thing!! You can jump right into it!</template>
+</category>
+
+<category>
+    <pattern>I am not good in ps gaming</pattern>
+    <template>You could go into game testing!</template>
+</category>
+
+
+<category>
+    <pattern>QA TESTER</pattern>
+    <template>That's nice! Now tell me are you good in coding?
+        <button><text>Yes</text><postback>I am good in coding qat</postback></button>
+        <button><text>No</text><postback>I am not good in coding qat</postback></button>
+    </template>
+</category>
+
+<category>
+    <pattern>I am good in coding qat</pattern>
+    <template>You could become a QA tester!</template>
+</category>
+
+<category>
+    <pattern>I am not good in coding qat</pattern>
+    <template>You could become a QA tester using GUI tools!</template>
+</category>
+
+
 <!--<category>-->
 <!--	<pattern>HELLO #</pattern>-->
 <!--	<template>Hi there. How can I help you?</template>-->
