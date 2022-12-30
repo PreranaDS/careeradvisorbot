@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>HI #</pattern>
+	<template>Hi there! I am your virtual career advisor. Tell your interests
+	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback> FULL STACK WEB DEVELOPER</postback></button>
+        <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>DATA SCIENTIST</postback></button>
+        <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>INFORMATION SECURITY ANALYST</postback></button>
+        <button><text>C,C#.NET,Game engines,Gaming</text><postback>GAME DEVELOPER</postback></button>
+        <button><text>SDLC,Java,Functional, Regression, Integration, Smoke and other testings,Junit,Bug tracking</text><postback>QA TESTER</postback></button>
+    </template>
+</category>
+<category>
+    <pattern> FULL STACK WEB DEVELOPER</pattern>
+    <template>Oooh, that's nice! Now tell me your strengths. Are you good in coding?
+        <button><text>Yes</text><postback></postback>YES</button>
+        <button><text>No</text><postback>NO</postback></button>
+    </template>
+</category>
+<!--<category>-->
+<!--	<pattern>HELLO #</pattern>-->
+<!--	<template>Hi there. How can I help you?</template>-->
+<!--</category>-->
+
+</aiml>
