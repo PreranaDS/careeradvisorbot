@@ -35,7 +35,7 @@
 <category>
 	<pattern>HEY #</pattern>
 	<template>Hi there! I am your virtual career advisor. Tell your interests
-	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
+	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
         <button><text>C,C#.NET,Game engines,Gaming</text><postback>Interest : GAME DEVELOPER</postback></button>
