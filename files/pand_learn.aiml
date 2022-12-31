@@ -5,7 +5,7 @@
 <category>
 	<pattern>HI #</pattern>
 	<template>Hi there! I am your virtual career advisor. Tell your interests
-	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
+	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
         <button><text>C,C#.NET,Game engines,Gaming</text><postback>Interest : GAME DEVELOPER</postback></button>
@@ -15,7 +15,7 @@
 <category>
 	<pattern>HELLO #</pattern>
 	<template>Hi there! I am your virtual career advisor. Tell your interests
-	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
+	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
         <button><text>C,C#.NET,Game engines,Gaming</text><postback>Interest : GAME DEVELOPER</postback></button>
@@ -25,7 +25,7 @@
 <category>
 	<pattern># HELP #</pattern>
 	<template>Hi there! I am your virtual career advisor. Tell your interests
-	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
+	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
         <button><text>C,C#.NET,Game engines,Gaming</text><postback>Interest : GAME DEVELOPER</postback></button>
@@ -45,7 +45,7 @@
 <category>
 	<pattern>GREETINGS #</pattern>
 	<template>Hi there! I am your virtual career advisor. Tell your interests
-	    <button><text>HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
+	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
         <button><text>C,C#.NET,Game engines,Gaming</text><postback>Interest : GAME DEVELOPER</postback></button>
@@ -77,43 +77,46 @@
 <category>
     <pattern>INTERESTSET</pattern>
     <template>That's nice! Now tell me are you good in coding?
-        <button><text>Yes</text><postback>I am good in coding</postback></button>
-        <button><text>No</text><postback>I am not good in coding</postback></button>
+        <reply><text>Yes</text><postback>I am good in coding</postback></reply>
+        <reply><text>No</text><postback>I am not good in coding</postback></reply>
     </template>
 </category>
 
 <category>
     <pattern>I AM GOOD IN CODING</pattern>
-    <template><think><set name="coding">true</set></think><srai>CODINGSET</srai></template>
+    <template>Lovely! <think><set name="coding">true</set></think><srai>CODINGSET</srai></template>
 </category>
 <category>
     <pattern>I AM NOT GOOD IN CODING</pattern>
-    <template><think><set name="coding">false</set></think><srai>CODINGSET</srai></template>
+    <template>No issues!
+        <think><set name="coding">false</set></think><srai>COMSET</srai>
+    </template>
 </category>
  
 
 <category>
     <pattern>CODINGSET</pattern>
-    <template>Great! Are you good in problem solving?
-        <button><text>Yes</text><postback>I am good in ps</postback></button>
-        <button><text>No</text><postback>I am not good in ps</postback></button>
+    <template> Are you good in problem solving?
+        <reply><text>Yes</text><postback>I am good in ps</postback></reply>
+        <reply><text>No</text><postback>I am not good in ps</postback></reply>
     </template>
 </category>
 
 <category>
     <pattern>I AM GOOD IN PS</pattern>
-    <template><think><set name="ps">true</set></think><srai>PSSET</srai></template>
+    <template>Excellent! <think><set name="ps">true</set></think><srai>PSSET</srai></template>
 </category>
 <category>
     <pattern>I AM NOT GOOD IN PS</pattern>
-    <template><think><set name="ps">false</set></think><srai>PSSET</srai></template>
+    <template>Not a problem!
+        <think><set name="ps">false</set></think><srai>COMSET</srai></template>
 </category>
 
 <category>
     <pattern>PSSET</pattern>
-    <template>Great! Are you good in communication?
-        <button><text>Yes</text><postback>I am good in communication</postback></button>
-        <button><text>No</text><postback>I am not good in communication</postback></button>
+    <template> Are you good in communication?
+        <reply><text>Yes</text><postback>I am good in communication</postback></reply>
+        <reply><text>No</text><postback>I am not good in communication</postback></reply>
     </template>
 </category>
 
@@ -123,7 +126,9 @@
 </category>
 <category>
     <pattern>I AM NOT GOOD IN COMMUNICATION</pattern>
-    <template><think><set name="comm">false</set></think><srai>COMSET</srai></template>
+    <template> Not to worry!
+        <think><set name="comm">false</set></think><srai>COMSET</srai>
+    </template>
 </category>
 
 <category>
@@ -155,7 +160,6 @@
                     <condition name="interest" value="QA TESTER">
                         You have what to takes to become a QA Tester!
                     </condition>
-                    
                 </condition>
                 <condition name="comm" value="false">
                     <get name="interest"/> is your thing! You may need to work on your communication skills.
@@ -205,7 +209,7 @@
           <button>
               <link>
                 <text>Data Science</text>
-                <url>https://www.simplilearn.com/tutorials/data-science-tutorial/what-is-data-science</url>
+                <url>https://www.w3schools.com/datascience/</url>
               </link>
           </button>
         </card>
@@ -216,7 +220,7 @@
           <button>
               <link>
                 <text>Information security</text>
-                <url>https://www.cisco.com/c/en_in/products/security/what-is-information-security-infosec.html</url>
+                <url>https://www.w3schools.com/cybersecurity/</url>
               </link>
           </button>
         </card>
@@ -238,7 +242,7 @@
           <button>
               <link>
                 <text>QA Tester</text>
-                <url>https://www.betterteam.com/qa-tester-job-description</url>
+                <url>https://www.tutorialspoint.com/software_testing/index.htm</url>
               </link>
           </button>
         </card>
