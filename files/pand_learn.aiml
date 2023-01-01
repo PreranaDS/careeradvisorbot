@@ -4,7 +4,7 @@
 
 <category>
 	<pattern>HI #</pattern>
-	<template>Hi there! I am your virtual career advisor. Tell your interests
+	<template>Hi there! I am your virtual career advisor. Choose your interests from the following
 	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
@@ -14,7 +14,7 @@
 </category>
 <category>
 	<pattern>HELLO #</pattern>
-	<template>Hi there! I am your virtual career advisor. Tell your interests
+	<template>Hi there! I am your virtual career advisor. Choose your interests from the following
 	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
@@ -24,7 +24,7 @@
 </category>
 <category>
 	<pattern># HELP #</pattern>
-	<template>Hi there! I am your virtual career advisor. Tell your interests
+	<template>Hi there! I am your virtual career advisor. Choose your interests from the following
 	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
@@ -34,7 +34,7 @@
 </category>
 <category>
 	<pattern>HEY #</pattern>
-	<template>Hi there! I am your virtual career advisor. Tell your interests
+	<template>Hi there! I am your virtual career advisor. Choose your interests from the following
 	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
@@ -44,7 +44,7 @@
 </category>
 <category>
 	<pattern>GREETINGS #</pattern>
-	<template>Hi there! I am your virtual career advisor. Tell your interests
+	<template>Hi there! I am your virtual career advisor. Choose your interests from the following
 	    <button><text>WWW, Websites, Webpages,HTTP,HTML,CSS,JS and .NET framework,PHP</text><postback>Interest : FULL STACK WEB DEVELOPER</postback></button>
         <button><text>Python, Data Science, Big Data, Machine Learning, Database Technologies: SQL, NoSQL</text><postback>Interest : DATA SCIENTIST</postback></button>
         <button><text>Penetration testing, ethical hacking, computer networks, security(encryption, decryption) algorithms</text><postback>Interest : INFORMATION SECURITY ANALYST</postback></button>
@@ -189,7 +189,7 @@
 
 <category>
     <pattern>DONE</pattern>
-    <template> <br/>Checkout all the careers along with the ones that interest you!
+    <template> <br/>Checkout all the careers along with the ones that interest you! Click on the arrows at the bottom of each card to navigate! Happy learning!
         <carousel>
         <card>
           <title>Web Development and Design</title>
